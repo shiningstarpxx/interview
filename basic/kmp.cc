@@ -31,7 +31,6 @@ void StrPattern(const string& origin, const string& pattern) {
 	CalcLps(pattern, &lps);
 
 	for (int i = 0, j = 0; i < origin.size(); ) {
-		
 		if (origin[i] == pattern[j]) {
 			++i;
 			++j;
